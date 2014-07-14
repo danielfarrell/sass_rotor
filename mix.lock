@@ -1,0 +1,2 @@
+%{"rotor": {:package, "0.2.1"},
+  "sass": {:git, "git://github.com/danielfarrell/sass.ex.git", "8d97f873df297788e6cf04039aacbf31f308fcfc", []}}
