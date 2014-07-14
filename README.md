@@ -1,7 +1,6 @@
 # SassRotor
 
-This is a [Rotor](https://github.com/HashNuke/rotor) to compile SASS files.
-
+This is a [Rotor](https://github.com/HashNuke/rotor) to compile Sass files. It uses the [Sass.ex](https://github.com/danielfarrell/sass.ex) library to do the Sass compilation.
 
 ### Usage
 
@@ -9,7 +8,7 @@ This is a [Rotor](https://github.com/HashNuke/rotor) to compile SASS files.
 The `SassRotor` module provides the `sass` rotor. And this is how you call it
 
 ```
-CoffeeRotor.sass(files)
+SassRotor.sass(files)
 ```
 
 ### Example config using the sass rotor
