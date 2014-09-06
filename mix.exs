@@ -4,7 +4,7 @@ defmodule SassRotor.Mixfile do
   def project do
     [app: :sass_rotor,
      version: "0.0.1",
-     elixir: "~> 0.14.2",
+     elixir: "~> 1.0.0",
      description: description,
      package: package,
      deps: deps]
