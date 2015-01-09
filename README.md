@@ -20,7 +20,7 @@ import Rotor.BasicRotors
 import SassRotor
 
 output_path = "priv/static/assets/app.css"
-Rotor.watch :stylesheets, ["priv/assets/stylesheets/*.scss"], fn(changed_files, all_files)->
+Rotor.watch :stylesheets, ["priv/assets/stylesheets/*.scss"], fn(_changed_files, all_files)->
   read_files(all_files)
   |> sass
   |> concat
